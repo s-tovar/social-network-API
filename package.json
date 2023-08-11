@@ -4,22 +4,23 @@
     "description": "Social Network API",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/s-tovar/social-network-API.git"
+        "type": "git",
+        "url": "git+https://github.com/s-tovar/social-network-API.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/s-tovar/social-network-API/issues"
+        "url": "https://github.com/s-tovar/social-network-API/issues"
     },
     "homepage": "https://github.com/s-tovar/social-network-API#readme",
     "dependencies": {
-      "express": "^4.17.3",
-      "mongoose": "^6.2.9"
+        "express": "^4.17.3",
+        "moment": "^2.29.4",
+        "mongoose": "^6.2.9"
     }
-  }
+}
